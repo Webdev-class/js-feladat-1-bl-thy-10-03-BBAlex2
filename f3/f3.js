@@ -14,6 +14,6 @@ const f3 = () => {
       correct.push(student);
     }
   });
-  // return correct;
+  return correct.length;
 }
 module.exports = f3;
